@@ -12,6 +12,11 @@ function loadHintsByCode(code){
 					"The perk is not bound to a specific killer, it is a general perk.",
 					"Actually the perk is about to get reworked in Patch 6.1.0"];
 		break;
+	case "such-math":
+		hintText = ["The burger is equal to 2, while the sparkling wine is equal to 4 and the beer equals 3. But that was easy, right?", 
+					"Don't get confused by all the emojis. Substitute the known ones with numbers and the unknown ones with variables. After that you should get a better overview.",
+					"The sum appears to be a coefficient, so evaluate, substitude and the integral should be easy to solve."];
+		break;
 	default:
 		correct = false;
 		break;
