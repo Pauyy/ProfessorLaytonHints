@@ -73,17 +73,22 @@ function checkParams(){
 	loadHints();
 }
 
+function codeKeyListener(e){
+	if(e.key == "Enter"){
+		loadHints();
+	}
+}
 
 function loadEnterCode(){
 	//show code input field
 	codeRequest = document.getElementById("Code");
 	codeRequest.style.display = "block";
-	
+	codeRequest.addEventListener('keypress', codeKeyListener);
 }
 function hideEnterCode(){
 	codeRequest = document.getElementById("Code");
 	codeRequest.style.display = "none";
-	
+	codeRequest.removeEventListener('keypress', codeKeyListener);
 }
 
 function setCode(){
