@@ -89,6 +89,13 @@ button.no{
 	background-color: #08848c;
 }
 
+button.enter{
+	background-color: beige;
+	border: 2px solid #000000;
+	border-radius: 2.5px;
+	box-shadow: 2px 2px #715828;
+}
+
 .canvas {
 	min-height: 100vh; 
 	display: flex;
