@@ -17,6 +17,11 @@ function loadHintsByCode(code){
 					"Don't get confused by all the emojis. Substitute the known ones with numbers and the unknown ones with variables. After that you should get a better overview.",
 					"The sum appears to be a coefficient, so evaluate, substitude and the integral should be easy to solve."];
 		break;
+	case "stream":
+		hintText = ["Was würde es eigentlich bedeuten wenn F wirklich die Wahrheit spricht?", 
+					"C beschuldigt A und B des lügens, mindestens einer von ihnen kann also keine Wahrheit sprechen.",
+					"Es gibt nur eine Person die den Stream nicht gesehen hat, wer von den dreien muss dann den Stream verpasst haben wenn C lügen würde."];
+		break;
 	default:
 		correct = false;
 		break;
